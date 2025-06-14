@@ -3,7 +3,16 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Photographe à Caen - Découvrez le portfolio de Nina Carducci, ses prestations photo, et contactez-la pour un devis personnalisé.">
+		<!-- OpenGraph pour RS-->
+		<meta property="og:title" content="Nina Carducci - Photographe à Caen">
+		<meta property="og:description" content="Photographe professionnelle à Caen : portraits, mariages, concerts et entreprises. Découvrez mon univers.">
+		<meta property="og:image" content="https://0e76-2a02-8429-8840-5601-6952-aa7e-d06f-e7bf.ngrok-free.app/assets/images/nina-carducci-open-graph.webp">
+		<meta property="og:url" content="https://0e76-2a02-8429-8840-5601-6952-aa7e-d06f-e7bf.ngrok-free.app">
+		<meta property="og:type" content="website">
+		<meta property="og:locale" content="fr_FR">
 
+		<title>Nina Carducci - Photographe à Caen</title>
 		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 		<link rel="stylesheet" href="./assets/style.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +22,44 @@
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 		<script src="./assets/maugallery.min.js" defer></script>
 		<script src="./assets/scripts.js" defer></script>
-		
+		<script type="application/ld+json">
+	{
+	"@context": "https://schema.org",
+	"@type": "LocalBusiness",
+	"name": "Nina Carducci",
+	"image": "https://www.nineCarducci.com/assets/images/nina-carducci.webp",
+	"description": "Photographe professionnelle à Bordeaux. Portraits, mariages, concerts et entreprises.",
+	"url": "https://www.ninacarducci.com",
+	"telephone": "+33612345678",
+	"priceRange": "A partir de 50€",
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "10 rue de la Photographe",
+		"addressLocality": "Caen",
+		"postalCode": "14000",
+		"addressCountry": "FR"
+	},
+	"geo": {
+		"@type": "GeoCoordinates",
+		"latitude": 49.1923387,
+		"longitude": -0.3796444
+	},
+	"openingHoursSpecification": {
+		"@type": "OpeningHoursSpecification",
+		"dayOfWeek": [
+		"Monday",
+		"Tuesday",
+		"Wednesday",
+		"Thursday",
+		"Friday"
+		],
+		"opens": "08:00",
+		"closes": "18:00"
+	},
+	"sameAs": "https://www.instagram.com/ninacarducci.photo/" 
+	}
+	</script>
+
 	</head>
 	<body>
 		<header class="top-header">
@@ -154,6 +200,15 @@
 							<textarea name="message" id="message" cols="30" rows="10"></textarea>
 							<input type="submit" value="Envoyer">
 						</form>
+						<div class="h-card">
+							<p class="p-name">Nina Carducci</p>
+							<p class="p-org">Photographe professionnelle</p>
+							<p class="p-locality">Caen</p>
+							<p class="p-adr">France</p>
+							<p class="p-tel">+33 6 12 34 56 78</p>
+							<a class="u-url" href="https://www.ninacarducci.com">https://www.ninacarducci.com</a>
+							<a class="u-email" href="mailto:contact@ninacarducci.com">contact@ninacarducci.com</a>
+						</div>
 					</div>
 					<div class="picture right">
 						<img src="./assets/images/camera.webp" alt="Appareil photo vintage" loading="lazy">
