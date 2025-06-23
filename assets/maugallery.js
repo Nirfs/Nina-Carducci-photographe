@@ -154,8 +154,7 @@
         }
       });
       next =
-        imagesCollection[index - 1] ||
-        imagesCollection[imagesCollection.length - 1];
+        imagesCollection[index - 1] || imagesCollection[imagesCollection.length - 1];
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
     nextImage() {
@@ -241,7 +240,7 @@
       }
       $(".active-tag").removeClass("active active-tag");
       $(this).addClass("active-tag active");
-
+      
       var tag = $(this).data("images-toggle");
 
       $(".gallery-item").each(function() {
